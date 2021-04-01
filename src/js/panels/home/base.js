@@ -29,8 +29,8 @@ class HomePanelBase extends React.Component {
                 }]}
                 onClose={() => this.props.closePopout()}
             >
-                <h2>Вопрос значит</h2>
-                <p>Вас роняли в детстве?</p>
+                <h1>Вам вопрос!</h1>
+                <h4>Вы глупенький?</h4>
             </Alert>
         );
     }
@@ -52,9 +52,6 @@ class HomePanelBase extends React.Component {
                     <Div>
                         <Button mode="secondary" size="l" stretched={true} onClick={() => this.props.openModal("MODAL_PAGE_BOTS_LIST")}>Открыть
                             модальную страницу</Button>
-                    </Div>
-                    <Div>
-                        <Button mode="secondary" size="l" stretched={true} onClick={() => setPage('test', 'base')}>Открыть тестовую страницу</Button>
                     </Div>
                     {withoutEpic && <Div>
                         <Button mode="secondary" size="l" stretched={true} onClick={() => setPage('modal', 'filters')}>Открыть модальное окно</Button>
