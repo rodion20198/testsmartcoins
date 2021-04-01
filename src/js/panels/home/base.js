@@ -53,9 +53,9 @@ class HomePanelBase extends React.Component {
                         <Button mode="secondary" size="l" stretched={true} onClick={() => this.props.openModal("MODAL_PAGE_BOTS_LIST")}>Открыть
                             модальную страницу</Button>
                     </Div>
-                    {/* <Div>
+                    <Div>
                         <Button mode="secondary" size="l" stretched={true} onClick={() => setPage('test', 'base')}>Открыть тестовую страницу</Button>
-                    </Div> */}
+                    </Div>
                     {withoutEpic && <Div>
                         <Button mode="secondary" size="l" stretched={true} onClick={() => setPage('modal', 'filters')}>Открыть модальное окно</Button>
                     </Div>}

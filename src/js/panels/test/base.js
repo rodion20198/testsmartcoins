@@ -12,9 +12,8 @@ import {Div, List, Panel, Group, Button, PanelHeader, PanelSpinner, PanelHeaderB
     const Home = (props) => (
 
         <Panel id={props.id} separator={false}>
-            <PanelHeader left={<React.Fragment><PanelHeaderButton><Avatar size={36} src={props.this.state.fetchedUser.photo_100} /></PanelHeaderButton></React.Fragment>} separator={false}>
-
-            </PanelHeader>
+            <PanelHeader>Hello Хуесос.</PanelHeader>
+            <Div><h2>Hello My World Down!</h2></Div>
             
 
         </Panel>
